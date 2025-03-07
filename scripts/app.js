@@ -132,37 +132,37 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result("Вам многому нужно научиться", 0),
-	new Result("Вы уже неплохо разбираетесь", 2),
-	new Result("Ваш уровень выше среднего", 4),
-	new Result("Вы в совершенстве знаете тему", 6)
+	new Result("Попробуйте еще раз", 0),
+	new Result("Неплохо!", 2),
+	new Result("Молодец!", 4),
+	new Result("Гениально!", 6)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("2 + 2 = ", 
+	new Question("Арбуз это... ", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Ягода", 1),
+		new Answer("Фрукт", 0),
+		new Answer("Не знаю", 0),
+		
 	]),
 
-	new Question("2 * 2 = ", 
+	new Question("Столица Испании ", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Кенигсберг", 0),
+		new Answer("Барселона", 0),
+		new Answer("Мадрид", 1),
+		new Answer("Стокгольм", 0)
 	]),
 
-	new Question("2 / 2 = ", 
+	new Question("Маленькое государство в Европе ", 
 	[
-		new Answer("0", 0),
-		new Answer("1", 1),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("Барселона", 0),
+		new Answer("Лихтенштейн", 1),
+		new Answer("Голладния", 0),
+		
 	]),
 
 	new Question("2 - 2 = ", 
